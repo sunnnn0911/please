@@ -142,7 +142,7 @@
       <div></div>
       <div></div>
     </div>
-    <div class="title-text" id="title">아띠고등학교교</div>
+    <div class="title-text" id="title">아띠고등학교</div>
     <div id="backIcon" onclick="goHome()">←</div>
   </header>
 
@@ -159,15 +159,15 @@
 
   <div id="main-content">
     <div class="section">
-      <img src="images/학교사진.png" alt="학교 사진">
+      <img src="images/school.png" alt="학교 사진">
     </div>
     <div class="section">
       <div class="notice-title" onclick="loadPage('공지사항')">공지사항 <span>&gt;</span></div>
-      <img src="images/공지사항.png" alt="공지사항 사진">
+      <img src="images/going.png" alt="공지사항 사진">
     </div>
     <div class="section" style="height: calc(300%);">
       <div class="notice-title">학교 급훈</div>
-      <img src="images/학교급훈.jpg" alt="학교 급훈 사진">
+      <img src="images/important.jpg" alt="학교 급훈 사진">
     </div>
   </div>
 
@@ -198,28 +198,28 @@
         content.innerHTML = `
           <div class="section">
             <div class="notice-title">학교 급훈</div>
-            <img src="images/학교급훈.jpg" alt="학교 급훈 사진">
+            <img src="images/important.jpg" alt="학교 급훈 사진">
           </div>
           <div class="section">
             <div class="notice-title">1층</div>
-            <img src="images/1층.jpg" alt="1층 사진">
+            <img src="images/first.jpg" alt="1층 사진">
             <div class="description">1층은 실험실과 연구실이 위치해있고 가운데에 텃밭이 있습니다. 텃밭은 모든 학생이 함께 작물을 키우는 공간입니다. </div>
           </div>
           <div class="section">
             <div class="notice-title">2층</div>
-            <img src="images/2층.jpg" alt="2층 사진">
+            <img src="images/second.jpg" alt="2층 사진">
             <div class="description">문화관으로 도서관과 미술실, 전시관1이 위치해있으며, 넓은 음악실*악기실*안무실이 배치되어있습니다</div>
           </div>
           <div class="section">
             <div class="notice-title">3층</div>
-            <img src="images/3층.jpg" alt="3층 사진">
+            <img src="images/third.jpg" alt="3층 사진">
             <div class="description">교실들이 위치해있으며, 중앙 전시관이 있습니다. 중앙전시관은 학생들의 작품들을 모아두는 공간입니다. </div>
           </div>
         `;
       } else if (title === "교육과정") {
         content.innerHTML = `
           <div class="section">
-            <img src="images/교육과정.jpg" alt="교육과정 사진">
+            <img src="images/go.jpg" alt="교육과정 사진">
           </div>
         `;
      } else if (title === "공지사항") {
@@ -261,13 +261,13 @@
       } else if (title === "학사일정") {
         content.innerHTML = `
           <div class="section">
-            <img src="images/학사일정.jpg" alt="학사일정 사진">
+            <img src="images/plan.jpg" alt="학사일정 사진">
           </div>
         `;
       } else if (title === "입학안내") {
         content.innerHTML = `
           <div class="section">
-            <img src="images/입학안내.jpg" alt="입학안내 사진">
+            <img src="images/start.jpg" alt="입학안내 사진">
           </div>
         `;
       } else if (title === "Q&A") {
@@ -307,15 +307,15 @@
       const content = document.getElementById("main-content");
       content.innerHTML = `
         <div class="section">
-          <img src="images/학교사진.png" alt="학교 사진">
+          <img src="images/school.png" alt="학교 사진">
         </div>
         <div class="section">
           <div class="notice-title" onclick="loadPage('공지사항')">공지사항 <span>&gt;</span></div>
-          <img src="images/공지사항.png" alt="공지사항 사진">
+          <img src="images/going.png" alt="공지사항 사진">
         </div>
         <div class="section" style="height: calc(300%);">
           <div class="notice-title">학교 급훈</div>
-          <img src="images/학교급훈.png" alt="학교 급훈 사진">
+          <img src="images/important.png" alt="학교 급훈 사진">
         </div>
       `;
 
